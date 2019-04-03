@@ -10,7 +10,7 @@ s.ios.deployment_target = "8.0"
 s.source       = { :git => "https://github.com/xiaohange/JQGetCodeTimeObj.git", :tag => s.version.to_s }
 s.social_media_url = 'https://weibo.com/hjq995'
 s.requires_arc = true
-s.source_files = 'JQGetCodeTimeObj/JQGetCodeTimeObj/**/*'
+s.source_files = 'JQGetCodeTimeObj/**/*'
 
 end
 
