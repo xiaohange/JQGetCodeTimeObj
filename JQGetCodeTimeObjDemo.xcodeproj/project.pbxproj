@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C13B51322544BE30035471F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B51222544BE30035471F /* AppDelegate.m */; };
+		3C13B51622544BE30035471F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B51522544BE30035471F /* ViewController.m */; };
+		3C13B51922544BE30035471F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C13B51722544BE30035471F /* Main.storyboard */; };
+		3C13B51B22544BE50035471F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C13B51A22544BE50035471F /* Assets.xcassets */; };
+		3C13B51E22544BE50035471F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C13B51C22544BE50035471F /* LaunchScreen.storyboard */; };
+		3C13B52122544BE50035471F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B52022544BE50035471F /* main.m */; };
+		3C13B52B22544BE50035471F /* JQGetCodeTimeObjDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B52A22544BE50035471F /* JQGetCodeTimeObjDemoTests.m */; };
+		3C13B53622544BE50035471F /* JQGetCodeTimeObjDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B53522544BE50035471F /* JQGetCodeTimeObjDemoUITests.m */; };
+		3C13B54F2254514D0035471F /* JQGetCodeTimeObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B54B2254514D0035471F /* JQGetCodeTimeObj.m */; };
+		3C13B5502254514D0035471F /* JQGetCodeTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B54E2254514D0035471F /* JQGetCodeTimeManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C13B52722544BE50035471F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C13B50622544BE30035471F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C13B50D22544BE30035471F;
+			remoteInfo = JQGetCodeTimeObjDemo;
+		};
+		3C13B53222544BE50035471F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C13B50622544BE30035471F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C13B50D22544BE30035471F;
+			remoteInfo = JQGetCodeTimeObjDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C13B50E22544BE30035471F /* JQGetCodeTimeObjDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQGetCodeTimeObjDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C13B51122544BE30035471F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C13B51222544BE30035471F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C13B51422544BE30035471F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C13B51522544BE30035471F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C13B51822544BE30035471F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C13B51A22544BE50035471F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C13B51D22544BE50035471F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C13B51F22544BE50035471F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C13B52022544BE50035471F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C13B52622544BE50035471F /* JQGetCodeTimeObjDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQGetCodeTimeObjDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C13B52A22544BE50035471F /* JQGetCodeTimeObjDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQGetCodeTimeObjDemoTests.m; sourceTree = "<group>"; };
+		3C13B52C22544BE50035471F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C13B53122544BE50035471F /* JQGetCodeTimeObjDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQGetCodeTimeObjDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C13B53522544BE50035471F /* JQGetCodeTimeObjDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQGetCodeTimeObjDemoUITests.m; sourceTree = "<group>"; };
+		3C13B53722544BE50035471F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C13B54B2254514D0035471F /* JQGetCodeTimeObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQGetCodeTimeObj.m; sourceTree = "<group>"; };
+		3C13B54C2254514D0035471F /* JQGetCodeTimeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQGetCodeTimeManager.h; sourceTree = "<group>"; };
+		3C13B54D2254514D0035471F /* JQGetCodeTimeObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQGetCodeTimeObj.h; sourceTree = "<group>"; };
+		3C13B54E2254514D0035471F /* JQGetCodeTimeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQGetCodeTimeManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C13B50B22544BE30035471F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C13B52322544BE50035471F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C13B52E22544BE50035471F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C13B50522544BE30035471F = {
+			isa = PBXGroup;
+			children = (
+				3C13B54A2254514D0035471F /* JQGetCodeTimeObj */,
+				3C13B51022544BE30035471F /* JQGetCodeTimeObjDemo */,
+				3C13B52922544BE50035471F /* JQGetCodeTimeObjDemoTests */,
+				3C13B53422544BE50035471F /* JQGetCodeTimeObjDemoUITests */,
+				3C13B50F22544BE30035471F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C13B50F22544BE30035471F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C13B50E22544BE30035471F /* JQGetCodeTimeObjDemo.app */,
+				3C13B52622544BE50035471F /* JQGetCodeTimeObjDemoTests.xctest */,
+				3C13B53122544BE50035471F /* JQGetCodeTimeObjDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C13B51022544BE30035471F /* JQGetCodeTimeObjDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3C13B51122544BE30035471F /* AppDelegate.h */,
+				3C13B51222544BE30035471F /* AppDelegate.m */,
+				3C13B51422544BE30035471F /* ViewController.h */,
+				3C13B51522544BE30035471F /* ViewController.m */,
+				3C13B51722544BE30035471F /* Main.storyboard */,
+				3C13B51A22544BE50035471F /* Assets.xcassets */,
+				3C13B51C22544BE50035471F /* LaunchScreen.storyboard */,
+				3C13B51F22544BE50035471F /* Info.plist */,
+				3C13B52022544BE50035471F /* main.m */,
+			);
+			path = JQGetCodeTimeObjDemo;
+			sourceTree = "<group>";
+		};
+		3C13B52922544BE50035471F /* JQGetCodeTimeObjDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C13B52A22544BE50035471F /* JQGetCodeTimeObjDemoTests.m */,
+				3C13B52C22544BE50035471F /* Info.plist */,
+			);
+			path = JQGetCodeTimeObjDemoTests;
+			sourceTree = "<group>";
+		};
+		3C13B53422544BE50035471F /* JQGetCodeTimeObjDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C13B53522544BE50035471F /* JQGetCodeTimeObjDemoUITests.m */,
+				3C13B53722544BE50035471F /* Info.plist */,
+			);
+			path = JQGetCodeTimeObjDemoUITests;
+			sourceTree = "<group>";
+		};
+		3C13B54A2254514D0035471F /* JQGetCodeTimeObj */ = {
+			isa = PBXGroup;
+			children = (
+				3C13B54C2254514D0035471F /* JQGetCodeTimeManager.h */,
+				3C13B54E2254514D0035471F /* JQGetCodeTimeManager.m */,
+				3C13B54D2254514D0035471F /* JQGetCodeTimeObj.h */,
+				3C13B54B2254514D0035471F /* JQGetCodeTimeObj.m */,
+			);
+			path = JQGetCodeTimeObj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C13B50D22544BE30035471F /* JQGetCodeTimeObjDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C13B53A22544BE50035471F /* Build configuration list for PBXNativeTarget "JQGetCodeTimeObjDemo" */;
+			buildPhases = (
+				3C13B50A22544BE30035471F /* Sources */,
+				3C13B50B22544BE30035471F /* Frameworks */,
+				3C13B50C22544BE30035471F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JQGetCodeTimeObjDemo;
+			productName = JQGetCodeTimeObjDemo;
+			productReference = 3C13B50E22544BE30035471F /* JQGetCodeTimeObjDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C13B52522544BE50035471F /* JQGetCodeTimeObjDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C13B53D22544BE50035471F /* Build configuration list for PBXNativeTarget "JQGetCodeTimeObjDemoTests" */;
+			buildPhases = (
+				3C13B52222544BE50035471F /* Sources */,
+				3C13B52322544BE50035471F /* Frameworks */,
+				3C13B52422544BE50035471F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C13B52822544BE50035471F /* PBXTargetDependency */,
+			);
+			name = JQGetCodeTimeObjDemoTests;
+			productName = JQGetCodeTimeObjDemoTests;
+			productReference = 3C13B52622544BE50035471F /* JQGetCodeTimeObjDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C13B53022544BE50035471F /* JQGetCodeTimeObjDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C13B54022544BE50035471F /* Build configuration list for PBXNativeTarget "JQGetCodeTimeObjDemoUITests" */;
+			buildPhases = (
+				3C13B52D22544BE50035471F /* Sources */,
+				3C13B52E22544BE50035471F /* Frameworks */,
+				3C13B52F22544BE50035471F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C13B53322544BE50035471F /* PBXTargetDependency */,
+			);
+			name = JQGetCodeTimeObjDemoUITests;
+			productName = JQGetCodeTimeObjDemoUITests;
+			productReference = 3C13B53122544BE50035471F /* JQGetCodeTimeObjDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C13B50622544BE30035471F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Hari;
+				TargetAttributes = {
+					3C13B50D22544BE30035471F = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					3C13B52522544BE50035471F = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 3C13B50D22544BE30035471F;
+					};
+					3C13B53022544BE50035471F = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 3C13B50D22544BE30035471F;
+					};
+				};
+			};
+			buildConfigurationList = 3C13B50922544BE30035471F /* Build configuration list for PBXProject "JQGetCodeTimeObjDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C13B50522544BE30035471F;
+			productRefGroup = 3C13B50F22544BE30035471F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C13B50D22544BE30035471F /* JQGetCodeTimeObjDemo */,
+				3C13B52522544BE50035471F /* JQGetCodeTimeObjDemoTests */,
+				3C13B53022544BE50035471F /* JQGetCodeTimeObjDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C13B50C22544BE30035471F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C13B51E22544BE50035471F /* LaunchScreen.storyboard in Resources */,
+				3C13B51B22544BE50035471F /* Assets.xcassets in Resources */,
+				3C13B51922544BE30035471F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C13B52422544BE50035471F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C13B52F22544BE50035471F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C13B50A22544BE30035471F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C13B51622544BE30035471F /* ViewController.m in Sources */,
+				3C13B5502254514D0035471F /* JQGetCodeTimeManager.m in Sources */,
+				3C13B54F2254514D0035471F /* JQGetCodeTimeObj.m in Sources */,
+				3C13B52122544BE50035471F /* main.m in Sources */,
+				3C13B51322544BE30035471F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C13B52222544BE50035471F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C13B52B22544BE50035471F /* JQGetCodeTimeObjDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C13B52D22544BE50035471F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C13B53622544BE50035471F /* JQGetCodeTimeObjDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C13B52822544BE50035471F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C13B50D22544BE30035471F /* JQGetCodeTimeObjDemo */;
+			targetProxy = 3C13B52722544BE50035471F /* PBXContainerItemProxy */;
+		};
+		3C13B53322544BE50035471F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C13B50D22544BE30035471F /* JQGetCodeTimeObjDemo */;
+			targetProxy = 3C13B53222544BE50035471F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C13B51722544BE30035471F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C13B51822544BE30035471F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C13B51C22544BE50035471F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C13B51D22544BE50035471F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C13B53822544BE50035471F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C13B53922544BE50035471F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C13B53B22544BE50035471F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXY5JXSFY9;
+				INFOPLIST_FILE = JQGetCodeTimeObjDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.JQGetCodeTimeObjDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C13B53C22544BE50035471F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXY5JXSFY9;
+				INFOPLIST_FILE = JQGetCodeTimeObjDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.JQGetCodeTimeObjDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C13B53E22544BE50035471F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXY5JXSFY9;
+				INFOPLIST_FILE = JQGetCodeTimeObjDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.JQGetCodeTimeObjDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQGetCodeTimeObjDemo.app/JQGetCodeTimeObjDemo";
+			};
+			name = Debug;
+		};
+		3C13B53F22544BE50035471F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXY5JXSFY9;
+				INFOPLIST_FILE = JQGetCodeTimeObjDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.JQGetCodeTimeObjDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQGetCodeTimeObjDemo.app/JQGetCodeTimeObjDemo";
+			};
+			name = Release;
+		};
+		3C13B54122544BE50035471F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXY5JXSFY9;
+				INFOPLIST_FILE = JQGetCodeTimeObjDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.JQGetCodeTimeObjDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JQGetCodeTimeObjDemo;
+			};
+			name = Debug;
+		};
+		3C13B54222544BE50035471F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXY5JXSFY9;
+				INFOPLIST_FILE = JQGetCodeTimeObjDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.JQGetCodeTimeObjDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JQGetCodeTimeObjDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C13B50922544BE30035471F /* Build configuration list for PBXProject "JQGetCodeTimeObjDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C13B53822544BE50035471F /* Debug */,
+				3C13B53922544BE50035471F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C13B53A22544BE50035471F /* Build configuration list for PBXNativeTarget "JQGetCodeTimeObjDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C13B53B22544BE50035471F /* Debug */,
+				3C13B53C22544BE50035471F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C13B53D22544BE50035471F /* Build configuration list for PBXNativeTarget "JQGetCodeTimeObjDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C13B53E22544BE50035471F /* Debug */,
+				3C13B53F22544BE50035471F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C13B54022544BE50035471F /* Build configuration list for PBXNativeTarget "JQGetCodeTimeObjDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C13B54122544BE50035471F /* Debug */,
+				3C13B54222544BE50035471F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C13B50622544BE30035471F /* Project object */;
+}
